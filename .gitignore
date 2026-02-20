@@ -8,3 +8,5 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+mlflow.db
+notebooks/preprocessing/label_encoding_map.json
