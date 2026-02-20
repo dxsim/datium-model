@@ -1,7 +1,0 @@
-name: my-ml-project
-
-python_env: python_env.yaml
-
-entry_points:
-  train:
-    command: "python -m my_project.train"
