@@ -1,0 +1,15 @@
+project:
+  name: my-ml-project
+
+environment:
+  python_version: "3.14"
+  requirements_file: requirements.txt
+
+mlflow:
+  tracking_uri: "http://mlflow:5000"
+  experiment_name: "my-ml-project"
+
+defaults:
+  data_dir: "data/processed"
+  model_dir: "artifacts/models"
+  random_seed: 42

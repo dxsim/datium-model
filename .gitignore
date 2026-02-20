@@ -1,0 +1,9 @@
+# data / outputs
+data/raw/
+mlruns/
+artifacts/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
