@@ -41,7 +41,7 @@ Raw files expected at:
 
 ## 6. Notebooks
 
-- EDA: `notebooks/EDA/eda_v2.ipynb`
+- EDA: `notebooks/EDA/eda.ipynb`
 - Preprocessing: `notebooks/preprocessing/preprocessing.ipynb`
 - Results: `notebooks/results/results.ipynb`
 
