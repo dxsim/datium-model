@@ -1,7 +1,9 @@
 # data / outputs
 data/raw/
 mlruns/
-artifacts/
+artifacts/encoder/
+artifacts/model.pkl
+artifacts/best_hyperparameters.json
 
 # python
 __pycache__/
