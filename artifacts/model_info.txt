@@ -1,0 +1,9 @@
+model=lightgbm_regressor
+cv_mae_mean=1607.188201
+cv_rmse_mean=2925.260069
+train_r2=0.964034
+train_rmse=1930.746939
+test_r2=0.932287
+test_rmse=2908.323179
+holdout_mae=1944.541629
+holdout_rmse=2908.323179
