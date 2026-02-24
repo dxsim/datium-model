@@ -1,0 +1,29 @@
+run_name: hyperparameter-tuning
+mlflow_experiment: datium-model
+train:
+  n_splits: 3
+  n_iter: 20
+  sample_frac: 0.5
+  lgbm_n_jobs: 4
+  early_stopping_rounds: 50
+  random_state: 42
+  verbosity: 1
+  missing_threshold_pct: 5.0
+  max_age_months: 246
+  tuning_features:
+  - NewPrice
+  - AgeDays
+  - KM
+  - Age_Comp_Months
+  - Height
+  - MakeCode
+  - YearGroup
+  - Make
+  - BuildCountryOriginDescription
+  - AverageKM
+  subsample: 0.9
+  num_leaves: 31
+  n_estimators: 500
+  min_data_in_leaf: 10
+  learning_rate: 0.05
+  colsample_bytree: 0.9
